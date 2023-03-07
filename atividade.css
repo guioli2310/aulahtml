@@ -1,8 +1,9 @@
 body{
-  background: #ADD8E6;
+  background: #DCDCDC;
 }
 .principal{
-	background: #87CEEB;
+  background: #D3D3D3;
+
 }
 .titulo-principal{
   text-align: center;
@@ -37,7 +38,7 @@ body{
   font-size: 25px;
 }
 .beneficios{
-  background: #6495ED;
+  background: #C0C0C0;
 }
 ul{
   display: inline-block;
