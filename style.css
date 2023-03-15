@@ -22,3 +22,16 @@ nav a{
   font-size: 20px;
   text-decoration: none;
 }
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px 0;
+}
+.inputpadrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
