@@ -19,24 +19,34 @@
         </nav>
       </div>
     </header>
-
+          
     <main>
-      <h2> Contato</h2>
-      <form>
+      <h2>CONTATO</h2>
+   <form>
         <label for="nomesobrenome"> Nome e Sobrenome</label>
         <input type="text" id="nomesobrenome" class="inputpadrao" required>
-<br>
+      
         <label for="email"> Email </label>
-        <input type="email" id="email" class="inputpadrao" required>
-<br>
+        <input type="email" id="email" class="inputpadrao" required placeholder="w.guilherme@escola.pr.gov.br">
+
         <label for="telefone"> Telefone </label>
-        <input type="tel" id="telefone" class="inputpadrao" required>
-<br>
+        <input type="tel" id="telefone" class="inputpadrao" required placeholder="(XX) XXXXX-XXXX">
+
         <label for="mensagem"> Mensagem </label>
         <textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required> </textarea>
-<br>
+        
+        <fieldset>
+          <legend>Como prefere o nosso Contato?</legend>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+           </fieldset>
+
+
+
       </form>
     </main>
+
 
 
 
