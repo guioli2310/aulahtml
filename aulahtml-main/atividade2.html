@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Contato Barbearia Alura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="reset.css">
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1> <img src="logo.jpg" alt="Logo da Barbearia Alura"></h1>
+        <nav>
+          <ul>
+            <li> <a href="atividade.html"> Home </a></li>
+            <li> <a href="produtos.html"> Produtos </a> </li>
+            <li> <a href="atividade2.html"> Contatos </a> </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+          
+    <main>
+      <h2>CONTATO</h2>
+   <form>
+        <label for="nomesobrenome"> Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="inputpadrao" required>
+      
+        <label for="email"> Email </label>
+        <input type="email" id="email" class="inputpadrao" required placeholder="w.guilherme@escola.pr.gov.br">
+
+        <label for="telefone"> Telefone </label>
+        <input type="tel" id="telefone" class="inputpadrao" required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="mensagem"> Mensagem </label>
+        <textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required> </textarea>
+        
+        <fieldset>
+          <legend>Como prefere o nosso Contato?</legend>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+           </fieldset>
+
+           <fieldset>
+             <legend>Qual horário prefere ser atendido?</legend>
+             <select>
+               <option>Manhã</option>
+               <option>Tarde</option>
+               <option>Noite</option>
+             </select>
+           </fieldset>
+
+           <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+           <input type="submit" value="Enviar formulário" class="enviar">
+         </form>
+
+         <table>
+          <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>8h ~ 20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+
+
+
+  </body>
+</html>

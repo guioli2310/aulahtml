@@ -1,0 +1,42 @@
+body{
+  background: #ADD8E6;
+}
+.principal{
+background: #87CEEB;
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.titulo-secundario{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+#missao{
+  font-size: 26px;
+  color: Black;
+  font-style: italic;
+}
+#missao2{
+  font-size: 26px;
+  color: Black;
+  font-style: italic;
+}
+#missao3{
+  font-size: 26px;
+  color: Black;
+  font-style: italic;
+}
+.titulo3{
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+.beneficios{
+  background: #87CEFA;
+}
+.beneficios2{
+  width: 26px;
+}
