@@ -71,12 +71,22 @@ form label, form legend{
 table{
   margin: 20px 0 40px;
 }
-td,th{
-  border: 1px solid black;
-  padding: 8px 15px;
-}
 thead{
   background: #555555;
   color: white;
   font-weight: bold;
+}
+td, th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+footer{
+  text-align: center;
+  background: #000000;
+  padding: 40px 0;
+}
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
